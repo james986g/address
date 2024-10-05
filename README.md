@@ -10,7 +10,7 @@ chmod +x CloudflareST
 pkg update
 pkg install wget -y
 wget -N https://github.com/james986g/cf/releases/download/v.2.2.5/CloudflareST_linux_armv7.tar.gz
-tar -zxf CloudflareST_linux_arm64.tar.gz
+tar -zxf CloudflareST_linux_armv7.tar.gz
 mv CloudflareST cfst
 chmod +x cfst
 ```
