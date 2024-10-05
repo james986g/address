@@ -4,8 +4,23 @@
 wget -N https://github.com/james986g/cf/releases/tag/v2.2.4/CloudflareST_linux_arm64.tar.gz
 tar -xzvf CloudflareST_linux_arm64.tar.gz
 chmod +x CloudflareST
-
 ```
+#termux
+pkg update
+pkg install wget -y
+wget -N https://github.com/james986g/cf/releases/tag/v2.2.5/CloudflareST_linux_armv7.tar.gz
+tar -zxf CloudflareST_linux_arm64.tar.gz
+mv CloudflareST cfst
+chmod +x cfst
+# 运行（以后再打开 Termux 直接运行这个命令就行了，可以根据需要自定义添加参数）
+# 小技巧：同上，在输入到  ./c  时按下左下角按钮即可补全文件名
+./cfst
+
+# 运行（带参数示例）
+./cfst -dd -tll 90
+```
+
+
 国外很多网站都在使用 Cloudflare CDN，但分配给中国内地访客的 IP 并不友好（延迟高、丢包多、速度慢）。  
 虽然 Cloudflare 公开了所有 [IP 段](https://www.cloudflare.com/zh-cn/ips/) ，但想要在这么多 IP 中找到适合自己的，怕是要累死，于是就有了这个软件。
 
