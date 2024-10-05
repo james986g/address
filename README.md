@@ -6,12 +6,14 @@ tar -xzvf CloudflareST_linux_arm64.tar.gz
 chmod +x CloudflareST
 ```
 #termux
+```
 pkg update
 pkg install wget -y
 wget -N https://github.com/james986g/cf/releases/tag/v2.2.5/CloudflareST_linux_armv7.tar.gz
 tar -zxf CloudflareST_linux_arm64.tar.gz
 mv CloudflareST cfst
 chmod +x cfst
+```
 # 运行（以后再打开 Termux 直接运行这个命令就行了，可以根据需要自定义添加参数）
 # 小技巧：同上，在输入到  ./c  时按下左下角按钮即可补全文件名
 ./cfst
