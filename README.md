@@ -1,7 +1,7 @@
 个人自用
 # XIU2/CloudflareSpeedTest
 ```
-wget -N https://github.com/james986g/cf/releases/tag/v2.2.4/CloudflareST_linux_arm64.tar.gz
+wget -N https://github.com/james986g/address/releases/tag/v2.2.4/CloudflareST_linux_arm64.tar.gz
 tar -xzvf CloudflareST_linux_arm64.tar.gz
 chmod +x CloudflareST
 ```
@@ -9,7 +9,7 @@ chmod +x CloudflareST
 ```
 pkg update
 pkg install wget -y
-wget -N https://github.com/james986g/cf/releases/download/v.2.2.5/CloudflareST_linux_armv7.tar.gz
+wget -N https://github.com/james986g/address/releases/download/v.2.2.5/CloudflareST_linux_armv7.tar.gz
 tar -zxf CloudflareST_linux_armv7.tar.gz
 mv CloudflareST cfst
 chmod +x cfst
