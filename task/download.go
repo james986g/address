@@ -17,7 +17,7 @@ import (
 
 const (
 	bufferSize                     = 1024
-	defaultURL                     = "okletsgo.life89.workers.dev"
+	defaultURL                     = "https://okletsgo.life89.workers.dev/"
 	defaultTimeout                 = 10 * time.Second
 	defaultDisableDownload         = false
 	defaultTestNum                 = 10
