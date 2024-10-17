@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/XIU2/CloudflareSpeedTest/utils"
+	"github.com/james986g/address/tree/master/utils"
 
 	"github.com/VividCortex/ewma"
 )
